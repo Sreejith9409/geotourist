@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get 'dashboard/index'
+  get 'dashboard/get_analytics_data'
   resources :visits
   resources :views
   resources :points
